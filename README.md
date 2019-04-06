@@ -4,10 +4,10 @@ The code implements two heuristics Manhattan distance and misplaced tiles. Follo
 is the program structure.
 1. Global Variables
 
-Two variables named expanded and fringe (priority queue) are used in function solve,
-which is the main function for A* algorithm.
+Two variables named expanded and fringe (priority queue) are used in function solve, which is the main function for A* algorithm.
 
 2. Functions & Procedures
+
 generateNeighbors() : Function to generate actions from the current state.
 printPath() : Function to display path from start to goal state, actions, and path cost
 considering state cost is 1 per action.
